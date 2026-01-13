@@ -1,0 +1,32 @@
+config = {
+"acme": {
+"partner_code": "ACME",
+"file": "acme.txt",
+"format": "csv",
+"header": True,
+"delimiter": "|",
+"columns": {
+"MBI": "external_id",
+"FNAME": "first_name",
+"LNAME": "last_name",
+"DOB": "dob",
+"EMAIL": "email",
+"PHONE": "phone"
+}
+},
+"bettercare": {
+"partner_code": "BETTERCARE",
+"file": "bettercare.csv",
+"format": "csv",
+"header": True,
+"delimiter": ",",
+"columns": {
+"subscriber_id": "external_id",
+"first_name": "first_name",
+"last_name": "last_name",
+"date_of_birth": "dob",
+"email": "email",
+"phone": "phone"
+}
+}
+}

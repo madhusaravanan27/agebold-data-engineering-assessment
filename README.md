@@ -47,6 +47,23 @@ The pipeline outputs a unified dataset with the following fields:
 
 ---
 
+## Snippets of Databricks workspace:
+### Workspace
+<img width="791" height="401" alt="image" src="https://github.com/user-attachments/assets/a0e6153e-2c02-4395-8ebf-5a767c6533ee" />
+
+### Config.json
+<img width="329" height="322" alt="image" src="https://github.com/user-attachments/assets/f584a32c-cdad-4dca-b449-5d9769aaebdc" />
+
+### Ingested data from different sources:
+<img width="428" height="257" alt="image" src="https://github.com/user-attachments/assets/db8da749-fedf-41f8-9bc0-5336079b23b2" />
+
+### Unified Data ( Delta Table):
+<img width="842" height="444" alt="image" src="https://github.com/user-attachments/assets/62d481b9-a32b-4be4-8688-b1c2a069af9b" />
+
+### Quarantined Data ( Delta Table):
+<img width="824" height="424" alt="image" src="https://github.com/user-attachments/assets/ab8ebd30-07fc-4994-94af-792590d6e5be" />
+
+
 ## Outputs
 - `workspace.eligibility.eligibility_unified` – clean, standardized data
 - `workspace.eligibility.eligibility_quarantine` – invalid records with reason codes

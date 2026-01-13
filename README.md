@@ -52,7 +52,7 @@ The pipeline outputs a unified dataset with the following fields:
 <img width="791" height="401" alt="image" src="https://github.com/user-attachments/assets/a0e6153e-2c02-4395-8ebf-5a767c6533ee" />
 
 ### Config.json
-<img width="329" height="322" alt="image" src="https://github.com/user-attachments/assets/f584a32c-cdad-4dca-b449-5d9769aaebdc" />
+<img width="381" height="344" alt="image" src="https://github.com/user-attachments/assets/38c7e177-a89b-4c17-a43a-ce1894fa58f6" />
 
 ### Ingested data from different sources:
 <img width="428" height="257" alt="image" src="https://github.com/user-attachments/assets/db8da749-fedf-41f8-9bc0-5336079b23b2" />

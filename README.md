@@ -39,7 +39,7 @@ The pipeline outputs a unified dataset with the following fields:
 
 ---
 
-## Data Quality & Error Handling (Bonus)
+## Data Quality & Error Handling 
 - Records missing `external_id` are flagged and quarantined
 - Malformed rows are captured using permissive parsing
 - Invalid date formats are handled gracefully using tolerant parsing
@@ -77,6 +77,20 @@ The pipeline outputs a unified dataset with the following fields:
 4. Query the output Delta tables
 
 ---
+## How to Add a New Partner
+
+The pipeline is fully configuration-driven. Onboarding a new partner does not require any changes to the core processing logic.
+
+Steps:
+1. Upload the partner’s eligibility file to the Unity Catalog ingest volume.
+2. Add a new entry to the JSON configuration file specifying:
+   - File name
+   - File delimiter
+   - Column mappings (partner fields → standard fields)
+   - Partner code
+3. Re-run the Databricks notebook.
+
+The new partner’s data will automatically be ingested, standardized, and included in the unified output.
 
 ## Tech Stack
 - Databricks

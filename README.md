@@ -58,10 +58,10 @@ The pipeline outputs a unified dataset with the following fields:
 <img width="428" height="257" alt="image" src="https://github.com/user-attachments/assets/db8da749-fedf-41f8-9bc0-5336079b23b2" />
 
 ### Unified Data ( Delta Table):
-<img width="842" height="444" alt="image" src="https://github.com/user-attachments/assets/62d481b9-a32b-4be4-8688-b1c2a069af9b" />
+<img width="659" height="368" alt="image" src="https://github.com/user-attachments/assets/c94e5da3-f088-47e4-afad-3557e304eefd" />
 
 ### Quarantined Data ( Delta Table):
-<img width="824" height="424" alt="image" src="https://github.com/user-attachments/assets/ab8ebd30-07fc-4994-94af-792590d6e5be" />
+<img width="643" height="404" alt="image" src="https://github.com/user-attachments/assets/cd4ccd8d-528a-49b1-8698-496ab8ad9a64" />
 
 
 ## Outputs
